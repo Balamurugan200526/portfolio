@@ -1,0 +1,42 @@
+export const experiences = [
+  {
+    id: 1,
+    role: "AI/ML Intern",
+    company: "Live Stream Technologies",
+    duration: "Jun 2026 – Jul 2026",
+    location: "Coimbatore",
+    description: "Worked on AI and Machine Learning projects.",
+  },
+  {
+    id: 2,
+    role: "Cyber Security Intern",
+    company: "CodeAlpha",
+    duration: "May 2026 – jun 2026",
+    location: "Remote",
+    description: "Cybersecurity project demonstrating and secure coding practices in python.",
+  },
+  {
+    id: 3,
+    role: "Java Developer Intern",
+    company: "Besant Technologies",
+    duration: "Jun 2025 – Aug 2025",
+    location: "Remote",
+    description: "Developed library management system using JDBC and MySQL.",
+  },
+  {
+    id: 4,
+    role: "Full Stack Web Development Intern",
+    company: "Internshala Trainings",
+    duration: "Jun 2025 – Aug 2025",
+    location: "Remote",
+    description: "Built the PG Life web application using React and PHP.",
+  },
+  {
+    id: 5,
+    role: "Web Development Intern",
+    company: "LogicZen Career Development Centre",
+    duration: "Jul 2025 – Aug 2025",
+    location: "Thanjavur",
+    description: "Designed and developed responsive websites.",
+  },
+];
