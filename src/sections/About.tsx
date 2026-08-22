@@ -16,37 +16,39 @@ export function About() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, margin: "-100px" }}
-            className="lg:col-span-5 relative"
+            className="lg:col-span-5 relative order-2 lg:order-1"
           >
-            <div className="lg:sticky lg:top-32 rounded-2xl bg-[#0d1117] border border-border shadow-2xl overflow-hidden font-mono text-xs sm:text-sm leading-relaxed">
+            <div className="lg:sticky lg:top-32 rounded-2xl bg-[#0d1117] border border-border shadow-2xl overflow-hidden font-mono text-[11px] sm:text-sm leading-relaxed">
               <div className="flex items-center px-4 py-3 bg-[#161b22] border-b border-border/50">
                 <div className="flex gap-2">
                   <div className="w-3 h-3 rounded-full bg-destructive/80" />
                   <div className="w-3 h-3 rounded-full bg-yellow-500/80" />
                   <div className="w-3 h-3 rounded-full bg-green-500/80" />
                 </div>
-                <div className="ml-4 text-muted-foreground text-xs">balamurugan.ts</div>
+                <div className="ml-4 text-muted-foreground text-xs font-sans">balamurugan.ts</div>
               </div>
-              <div className="p-4 sm:p-6 overflow-x-auto">
+              <div className="p-3.5 sm:p-6 overflow-x-auto">
                 <pre className="text-muted-foreground">
                   <code className="language-typescript">
-<span className="text-purple-400">const</span> <span className="text-blue-400">developer</span> = {'{'}
-<br/>  name: <span className="text-green-400">'Balamurugan S'</span>,
-<br/>  role: <span className="text-green-400">'Software Engineer'</span>,
-<br/>  location: <span className="text-green-400">'Tamil Nadu, India'</span>,
-<br/>  education: <span className="text-green-400">'B.Tech IT'</span>,
-<br/>  skills: [<span className="text-green-400">'Flutter'</span>, <span className="text-green-400">'React'</span>, <span className="text-green-400">'Node.js'</span>],
-<br/>  passion: [<span className="text-green-400">'Building scalable apps'</span>,
-<br/>            <span className="text-green-400">'Solving problems'</span>],
-<br/>
-<br/>  <span className="text-blue-400">buildFuture</span>() {'{'}
-<br/>    <span className="text-purple-400">return</span> <span className="text-purple-400">this</span>.skills.map(<span className="text-orange-400">skill</span> =&gt; 
-<br/>      <span className="text-blue-300">createImpact</span>(<span className="text-orange-400">skill</span>)
-<br/>    );
-<br/>  {'}'}
-<br/>{'}'};
-<br/>
-<br/><span className="text-blue-400">developer</span>.<span className="text-blue-300">buildFuture</span>();
+                    <div><span className="text-purple-400">const</span> <span className="text-blue-400">developer</span> = &#123;</div>
+                    <div>  name: <span className="text-green-400">'Balamurugan S'</span>,</div>
+                    <div>  role: <span className="text-green-400">'Software Engineer'</span>,</div>
+                    <div>  location: <span className="text-green-400">'Tamil Nadu, India'</span>,</div>
+                    <div>  education: <span className="text-green-400">'B.Tech IT'</span>,</div>
+                    <div>  skills: [<span className="text-green-400">'Flutter'</span>, <span className="text-green-400">'React'</span>, <span className="text-green-400">'Node.js'</span>],</div>
+                    <div>  passion: [</div>
+                    <div>    <span className="text-green-400">'Building scalable apps'</span>,</div>
+                    <div>    <span className="text-green-400">'Solving problems'</span></div>
+                    <div>  ],</div>
+                    <br/>
+                    <div>  <span className="text-blue-400">buildFuture</span>() &#123;</div>
+                    <div>    <span className="text-purple-400">return</span> <span className="text-purple-400">this</span>.skills.map(<span className="text-orange-400">skill</span> =&gt;</div>
+                    <div>      <span className="text-blue-300">createImpact</span>(<span className="text-orange-400">skill</span>)</div>
+                    <div>    );</div>
+                    <div>  &#125;</div>
+                    <div>&#125;;</div>
+                    <br/>
+                    <div><span className="text-blue-400">developer</span>.<span className="text-blue-300">buildFuture</span>();</div>
                   </code>
                 </pre>
               </div>
@@ -59,7 +61,7 @@ export function About() {
             initial="hidden"
             whileInView="show"
             viewport={{ once: true, margin: "-100px" }}
-            className="lg:col-span-7 flex flex-col"
+            className="lg:col-span-7 flex flex-col order-1 lg:order-2"
           >
             <SectionHeading label="// about me" title="Passionate Builder, Lifelong Learner" />
             
